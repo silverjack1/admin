@@ -1,0 +1,11 @@
+1. Buat Tabel Sales
+
+Buka script insert_data.php ubah nama database sesuai dengan database yang digunakan, dan pastikan belum ada tabel sales pada database anda, selanjutnya jalankan script tersebut. Jika berhasil, maka akan terbentuk tabel sales pada database anda.
+
+Cara lainnya, buka phpMyAdmin, pilih database, kemudian dump file sales.sql
+
+2. Menampilkan Data
+
+Untuk menampilkan data, silakan coba script yang ada, seperti mysqli_fetch_array.php, dll, namun sebelumnya buka terlebih dahulu file yang ingin dijalankan dan ubah nama database sesuai dengan yang anda gunakan.
+
+Tutorial: 

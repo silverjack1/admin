@@ -1,0 +1,14 @@
+Langkah-langkah :
+
+1. Install Web Server di Komputer anda, seperti XAMPP
+2. Ekstrak File Download newunbk_source.zip
+3. Jalankan XAMPP start Apache dan Mysql
+4. Buka Browser anda ketik localhost/phpmyadmin
+5. Buat database dengan nama newunbk
+6. Import data dengan cara klik menu import pada database newunbk, pilih file newunbk.sql di folder ekstrak download sebelumnya.
+7. Copy folder newunbk ke folder htdocs xamp :
+    biasanya di C:\xampp\htdocs
+8. Jalankan aplikasi dengan ketik localhost/newunbk
+9. login ke super user dengan username adminer : password admin123
+
+Jika mengalami kesulitan silahkan Instal Team Viewer atau sejenisnya untuk kami pandu instalasinya
