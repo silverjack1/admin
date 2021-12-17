@@ -1,0 +1,46 @@
+CRITICAL - 2021-12-17 01:00:47 --> Undefined variable: config
+#0 C:\xampp\htdocs\anbk\app\Views\auth\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\anbk\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anbk\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anbk\system\Common.php(1097): CodeIgniter\View\View->render('auth/login', Array, true)
+#4 C:\xampp\htdocs\anbk\app\Controllers\Home.php(10): view('auth/login', Array)
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-17 08:38:05 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\anbk\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\anbk\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-17 08:38:13 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\anbk\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\anbk\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-17 08:39:49 --> Too few arguments to function App\Controllers\Home::tulis(), 0 passed in C:\xampp\htdocs\anbk\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->tulis()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-17 09:05:26 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\anbk\system\Filters\Filters.php(533): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 533, Array)
+#1 C:\xampp\htdocs\anbk\system\Filters\Filters.php(418): CodeIgniter\Filters\Filters->pathApplies('register', true)
+#2 C:\xampp\htdocs\anbk\system\Filters\Filters.php(230): CodeIgniter\Filters\Filters->processGlobals('register')
+#3 C:\xampp\htdocs\anbk\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('register')
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('register', 'before')
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
